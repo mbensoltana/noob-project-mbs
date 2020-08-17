@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<component name="com.noob.nuxeo.ecm.extension.point" version="1.0">
+   <!-- target and point value is given by the extension point definition -->
+   <extension target="com.noob.nuxeo.ecm.PriceCalculatorService" point="operations">
+   		<settings id="priceCalcSettings">
+   			<vat>20</vat>
+   			<charge number="100"></charge>
+   		</settings>
+   </extension>
+</component>

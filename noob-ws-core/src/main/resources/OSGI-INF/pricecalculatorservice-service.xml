@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<component name="com.noob.nuxeo.ecm.PriceCalculatorService" version="1.0">
+
+  <implementation class="com.noob.nuxeo.ecm.PriceCalculatorServiceImpl" />
+
+  <service>
+    <provide interface="com.noob.nuxeo.ecm.PriceCalculatorService" />
+  </service>
+  
+  <extension-point name="operations">
+  		<object>com.noob.nuxeo.ecm.annotations.PriceCalculatorDescriptor</object>
+  </extension-point>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<component
+	name="com.noob.nuxeo.ecm.filemanager.service.extension.NoobFileImporter.Plugins">
+
+	<require>
+		org.nuxeo.ecm.platform.filemanager.service.FileManagerService
+	</require>
+	<extension
+		target="org.nuxeo.ecm.platform.filemanager.service.FileManagerService"
+		point="plugins">
+		<documentation>
+			NoobFileImporter creates a visual document from any
+			image with filename including visual.
+		</documentation>
+
+		<plugin name="NoobFileImporter"
+			class="com.noob.nuxeo.ecm.filemanager.service.extension.NoobFileImporter"
+			order="1">
+			<filter>image/*</filter>
+		</plugin>
+	</extension>
+</component>

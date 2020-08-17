@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<component name="com.noob.nuxeo.ecm.listener.nooblistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener async="true" postCommit="true" name="nooblistener"
+      class="com.noob.nuxeo.ecm.NoobListener">
+        <event>addedevent</event>
+        <event>changedevent</event>
+        <event>notsoldanymoreevent</event>
+    </listener>
+  </extension>
+
+</component>

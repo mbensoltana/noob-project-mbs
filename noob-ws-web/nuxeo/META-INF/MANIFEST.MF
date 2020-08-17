@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.noob.nuxeo.ecm
+Bundle-Version: 1.0.0
+Bundle-Name: noob-ws-web
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.noob.nuxeo.ecm.noob-ws-web;singleton=true
+Nuxeo-Component: OSGI-INF/noob-webapp-auth-contrib.xml

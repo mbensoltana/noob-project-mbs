@@ -1,0 +1,14 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.noob.nuxeo.ecm
+Bundle-Version: 1.0.0
+Bundle-Name: noob-ws-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.noob.nuxeo.ecm.noob-ws-core;singleton=true
+Nuxeo-Component: OSGI-INF/nooboperation-operation-contrib.xml,
+ OSGI-INF/nooblistener-listener-contrib.xml,
+ OSGI-INF/nooboperation-service-contrib.xml,
+ OSGI-INF/pricecalculatorservice-service.xml,
+ OSGI-INF/pricecalculatoroperation-operation-contrib.xml,
+ OSGI-INF/pricecalculatorextension-extension-contrib.xml
