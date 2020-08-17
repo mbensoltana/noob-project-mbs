@@ -35,6 +35,10 @@
       <artifactId>nuxeo-platform-actions-core</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.nuxeo.ecm.platform</groupId>
+      <artifactId>nuxeo-platform-directory-core</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.nuxeo.ecm.core</groupId>
       <artifactId>nuxeo-core-event</artifactId>
     </dependency>
@@ -68,8 +72,8 @@
       <artifactId>nuxeo-runtime</artifactId>
     </dependency>
     <dependency>
-        <groupId>org.nuxeo.ecm.platform</groupId>
-        <artifactId>nuxeo-platform-imaging-core</artifactId>
+      <groupId>org.nuxeo.ecm.platform</groupId>
+      <artifactId>nuxeo-platform-imaging-core</artifactId>
     </dependency>
     <dependency>
       <groupId>org.nuxeo.ecm.platform</groupId>
@@ -78,6 +82,10 @@
     <dependency>
       <groupId>org.nuxeo.ecm.platform</groupId>
       <artifactId>nuxeo-platform-rendition-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.core</groupId>
+      <artifactId>nuxeo-core-api</artifactId>
     </dependency>
   </dependencies>
 </project>

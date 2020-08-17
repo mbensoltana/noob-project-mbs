@@ -20,14 +20,19 @@ import org.nuxeo.runtime.test.runner.FeaturesRunner;
 import org.nuxeo.runtime.test.runner.PartialDeploy;
 import org.nuxeo.runtime.test.runner.TargetExtensions;
 
-import com.noob.nuxeo.ecm.extensions.PriceCalculatorExtension;
-
 
 @RunWith(FeaturesRunner.class)
 @Features(CoreFeature.class)
-@Deploy("com.noob.nuxeo.ecm.noob-ws-core")
 @Deploy("org.nuxeo.ecm.automation.core")
-@PartialDeploy(bundle = "studio.extensions.mbensoltana-SANDBOX", extensions = { PriceCalculatorExtension.class, TargetExtensions.ContentModel.class })
+@Deploy({
+	"com.noob.nuxeo.ecm.noob-ws-core",
+	"org.nuxeo.ecm.directory",
+	"org.nuxeo.ecm.platform.filemanager.api",
+	"org.nuxeo.ecm.platform.filemanager.core",
+	"org.nuxeo.ecm.platform.query.api",
+    "com.noob.nuxeo.ecm.noob-ws-core.tests:test-extension-config.xml"
+})
+@PartialDeploy(bundle = "studio.extensions.mbensoltana-SANDBOX", extensions = { TargetExtensions.ContentModel.class })
 public class TestPriceCalculatorService {
 
     @Inject

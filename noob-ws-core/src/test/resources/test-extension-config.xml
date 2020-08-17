@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component name="com.noob.nuxeo.ecm.TestPriceCalculatorService.test">
+    <extension target="com.noob.nuxeo.ecm.PriceCalculatorService" point="operations">
+   		<settings id="priceCalcSettings">
+   			<vat>20</vat>
+   			<charge number="100"></charge>
+   		</settings>
+   </extension>
+</component>

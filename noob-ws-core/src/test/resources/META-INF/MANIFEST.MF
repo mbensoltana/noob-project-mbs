@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Noob Core Tests
+Bundle-SymbolicName: com.noob.nuxeo.ecm.noob-ws-core.tests;singleton:=true
+Bundle-Vendor: Nuxeo
