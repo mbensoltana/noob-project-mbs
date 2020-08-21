@@ -12,4 +12,6 @@ Nuxeo-Component: OSGI-INF/nooboperation-operation-contrib.xml,
  OSGI-INF/pricecalculatorservice-service.xml,
  OSGI-INF/pricecalculatoroperation-operation-contrib.xml,
  OSGI-INF/pricecalculatorextension-extension-contrib.xml,
- OSGI-INF/com.noob.nuxeo.ecmproduct-adapter-contrib.xml
+ OSGI-INF/com.noob.nuxeo.ecmproduct-adapter-contrib.xml,
+ OSGI-INF/noobnomoresoldproductlistener-listener-contrib.xml,
+ OSGI-INF/noobadddistributoroperation-operation-contrib.xml

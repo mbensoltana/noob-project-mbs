@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<component name="com.noob.nuxeo.ecm.listener.noobnomoresoldproductlistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="noobnomoresoldproductlistener"
+      class="com.noob.nuxeo.ecm.NoobNoMoreSoldProductListener">
+        <event>documentModified</event>
+    </listener>
+  </extension>
+
+</component>
